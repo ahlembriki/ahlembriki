@@ -1,0 +1,57 @@
+
+
+
+<div class="page-container">
+    <div class="grid-container">
+      <div class="left-side">
+        <div class="img-and-text">
+          <img class="cart-illustration" src="assets/img/password-illustration.png" alt="">
+          <h1>Start for free and get attractive offers.</h1>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="wrapper">
+          <h2>Get started.</h2>
+          
+          
+          <p class="socials-divider"><span>or</span></p>
+
+          <form action="" >
+
+            <label for="username">Username</label>
+              <div class="username">
+                <i class="fi fi-rr-envelope icon-username"></i>
+                <input type="text" name="username" placeholder="text" id="username" [(ngModel)]="username">
+              </div>
+
+
+
+            <label for="password">Password</label>
+
+            <div class="password-input-container">
+              <i class="fi fi-rr-lock icon-password"></i>
+              <input type="password" name="password" placeholder="Your password" id="password" [(ngModel)]="password">
+            </div>
+
+            
+
+            
+
+          </form>
+
+          <div class="agreement-check">
+            <input type="checkbox" name="terms_of_service_and_privacy_policy">
+            <span class="terms-of-use-text">I agree to Plataform's
+              <a href="#">Terms of Service</a> and
+              <a href="#">Privacy Policy</a>
+            </span>
+          </div>
+
+          
+          <button type="button" class="btn btn-primary px-4" (click)="login()">Login</button>
+          <p>register now <a href="/signup">   signup</a></p>
+          <p class="credits">Made with ❤️ by </p>
+        </div>
+      </div>    
+    </div>
+  </div>

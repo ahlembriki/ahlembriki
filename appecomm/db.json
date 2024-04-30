@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "firstname": "erij",
+      "lastname": "ben saad",
+      "phonenumber": "+21655165050",
+      "adresse": "soussa",
+      "email": "ali@gmail.com",
+      "password": "ahlem",
+      "ConfirmPassword": "aaaaa",
+      "id": "2"
+    },
+    {
+      "email": "khalil@gmail.com",
+      "password": "ahlem",
+      "firstname": "khalil",
+      "lastname": "nasr",
+      "phonenumber": "99171385",
+      "adresse": "ARIANA",
+      "ConfirmPassword": "khalil",
+      "id": "IuCxSB4",
+      "role": "admin"
+    },
+    {
+      "email": "bahija@gmail.com",
+      "password": "ahlem",
+      "firstname": "bahija",
+      "lastname": "nasr",
+      "phonenumber": "99171385",
+      "adresse": "ARIANA",
+      "ConfirmPassword": "ERIJ",
+      "id": "xX5xV-x"
+    },
+    {
+      "email": "totot@gmail.com",
+      "password": "ahlem",
+      "firstname": "erij",
+      "lastname": "NASR",
+      "phonenumber": "99171385",
+      "adresse": "ARIANA",
+      "ConfirmPassword": "AAAA",
+      "id": "WvNlfgE"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "lib": "prod1"
+    }
+  ]
+}
